@@ -7,10 +7,30 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>Header</header>
+    <header>
+      <div id="logo">LOGO</div>
+      <!-- nav>ul>li*5>a  -->
+      <nav>
+        <input type="checkbox" id="hamburger" />
+        <div id="menu-mobile">
+          <label for="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </label>
+        </div>
+        <ul id="nav-links">
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">A propos</a></li>
+          <li><a href="#">Expériences</a></li>
+          <li><a href="#">Projets</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <div class="main-content">
-        <h1>Titre</h1>
+        <h1 id="h1">Titre</h1>
         <div id="separation">
           <div class="image"></div>
           <div class="content">
